@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trello</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/trello.css">
+</head>
+<body>
+  <header>
+    <div class="row">
+      <h1 class="app-name left">Trello</h1>
+    </div>
+  </header>
+  <section id="list-container" class="list-container" ng-controller="listsCtrl as listsCtrl">
+    <div class="row">
+      <section class="list" ng-repeat="list in listsCtrl.lists">
+        <h1>
+          {{list.listName}}
+        </h1>
+      </section>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/lodash.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/controllers/listsCtrl.js"> </script>
+</body>
+</html>
