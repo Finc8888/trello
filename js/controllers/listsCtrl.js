@@ -1,11 +1,4 @@
-angular.module('app',[]).controller('listsCtrl',function(){
+angular.module('app').controller('listsCtrl',function(listFactory){
   console.log('listsCtrl');
-  this.lists = [
-    {
-      listName:'List 1'
-    },
-    {
-      listName:'List 2'
-    }
-  ];
+  this.lists = listFactory.getLists();
 });
