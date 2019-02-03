@@ -1,7 +1,24 @@
-.test{
+@import url('https://fonts.googleapis.com/css?family=Damion|Source+Sans+Pro:400,700i');
+
+header{
   width: 100vw;
-  height: 100vh;
+  height: 10vh;
   background-color: teal;
-}[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+}
+.app-name{
+    color:white;
+    font-family: 'Damion', cursive;
+    font-size: 44px;
+}
+.row{
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 10vw;
+    top:50%;
+    transform: translateY(-50%);
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
    display: none;
  }
