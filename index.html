@@ -11,12 +11,12 @@
 </head>
 <body class="ng-cloak" ng-cloak>
   <header>
-    <div class="row">
+    <div class="row header">
       <h1 class="app-name left">Trello</h1>
     </div>
   </header>
   <section id="list-container" class="list-container" ng-controller="listsCtrl as listsCtrl">
-    <div class="row">
+    <div class="row row-lists">
       <section class="list" ng-repeat="list in listsCtrl.lists">
         <h1>
           {{list.listName}}

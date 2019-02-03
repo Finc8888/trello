@@ -10,7 +10,7 @@ header{
     font-family: 'Damion', cursive;
     font-size: 44px;
 }
-.row{
+.header{
     position: relative;
 }
 .left{
@@ -22,3 +22,26 @@ header{
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
    display: none;
  }
+.list{
+    display: flex;
+    align-content:center;
+    width:200px;
+    height:60px;
+    background-color: lightgrey;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+.row-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content:center;
+    margin: 10px 250px 10px 100px;
+    width:1000px ;
+}
+.list h1{
+    color:black;
+    font-size: 18px;
+    padding-left: 10px;
+    align-self:center;
+}

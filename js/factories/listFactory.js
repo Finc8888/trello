@@ -16,7 +16,16 @@ angular.module('app').factory('listFactory',function(){
     {
         id : 3,
         listName : 'Done'
-    }];
+    },
+        {
+            id : 4,
+            listName : 'Test'
+        },
+        {
+            id : 5,
+            listName : 'Test2'
+        }
+    ];
     service.getLists = function(){
         return lists;
     }
