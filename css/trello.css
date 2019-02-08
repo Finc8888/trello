@@ -45,3 +45,12 @@ header{
     padding-left: 10px;
     align-self:center;
 }
+.new-list{
+    background-color: #14679e;
+    padding: 10px;
+    height:75px;
+}
+.remove-list{
+    color:black;
+    float: left;
+}
